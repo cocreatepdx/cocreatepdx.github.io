@@ -692,7 +692,7 @@ input::selection {
   vertical-align: baseline;
   background: #E0E1E2 none;
   color: rgba(0, 0, 0, 0.6);
-  font-family: 'et-book', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Inconsolata';
   margin: 0em 0.25em 0em 0em;
   padding: 0.61111111em 1.5em 0.61111111em;
   text-transform: none;
@@ -32745,13 +32745,13 @@ html.ios body {
 
 .ui.sticky.bound.top,
 .ui.sticky.fixed.top {
-  top: 0px;
+  top: 70px;
   bottom: auto;
 }
 
 .ui.sticky.bound.bottom,
 .ui.sticky.fixed.bottom {
-  top: auto;
+  top: 70px;
   bottom: 0px;
 }
 
