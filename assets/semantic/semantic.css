@@ -8,7 +8,7 @@
  * http://opensource.org/licenses/MIT
  *
  */
-@import url('https://fonts.googleapis.com/css?family=Inconsolata:400,700,400italic,700italic&subset=latin');
+@import url('https://fonts.googleapis.com/css?family=et-book|Stardos+Stencil|Oldenburg|Londrina+Solid|Fruktur|Oswald');
 /*!
  * # Semantic UI 2.1.8 - Reset
  * http://github.com/semantic-org/semantic-ui/
@@ -528,11 +528,11 @@ body {
   padding: 0px;
   overflow-x: hidden;
   min-width: 320px;
-  background: #FFFFFF;
-  font-family: 'Inconsolata', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  background: none;
+  font-family: 'et-book', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 1.4285em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   font-smoothing: antialiased;
 }
 
@@ -545,10 +545,10 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Inconsolata', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Stardos Stencil', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   line-height: 1.2857em;
   margin: calc(2rem -  0.14285em ) 0em 1rem;
-  font-weight: bold;
+  font-weight: normal;
   padding: 0em;
 }
 
@@ -611,12 +611,12 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #4183C4;
+  color: #111;
   text-decoration: none;
 }
 
 a:hover {
-  color: #1e70bf;
+  color: #110c0c;
   text-decoration: none;
 }
 
@@ -628,17 +628,17 @@ a:hover {
 
 ::-webkit-selection {
   background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 ::-moz-selection {
   background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 ::selection {
   background-color: #CCE2FF;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 /* Form */
@@ -646,19 +646,19 @@ a:hover {
 textarea::-webkit-selection,
 input::-webkit-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 textarea::-moz-selection,
 input::-moz-selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 textarea::selection,
 input::selection {
   background-color: rgba(100, 100, 100, 0.4);
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 /*******************************
@@ -692,7 +692,7 @@ input::selection {
   vertical-align: baseline;
   background: #E0E1E2 none;
   color: rgba(0, 0, 0, 0.6);
-  font-family: 'Inconsolata', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'et-book', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   margin: 0em 0.25em 0em 0em;
   padding: 0.61111111em 1.5em 0.61111111em;
   text-transform: none;
@@ -4180,7 +4180,7 @@ input::selection {
 
 .ui.primary.buttons .button,
 .ui.primary.button {
-  background-color: #2185D0;
+  background-color: #CD5C5C;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -4192,28 +4192,28 @@ input::selection {
 
 .ui.primary.buttons .button:hover,
 .ui.primary.button:hover {
-  background-color: #1678c2;
+  background-color: #cd4242;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.primary.buttons .button:focus,
 .ui.primary.button:focus {
-  background-color: #0d71bb;
+  background-color: #d12f2f;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.primary.buttons .button:active,
 .ui.primary.button:active {
-  background-color: #1a69a4;
+  background-color: #bc3a3a;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.primary.buttons .active.button,
 .ui.primary.active.button {
-  background-color: #1279c6;
+  background-color: #d13f3f;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -4580,7 +4580,7 @@ input::selection {
 /* Text Container */
 
 .ui.text.container {
-  font-family: 'Inconsolata', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'et-book', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   max-width: 700px !important;
   line-height: 1.5;
 }
@@ -6187,11 +6187,11 @@ i.flag.zimbabwe:before {
   border: none;
   margin: calc(2rem -  0.14285em ) 0em 1rem;
   padding: 0em 0em;
-  font-family: 'Inconsolata', 'Helvetica Neue', Arial, Helvetica, sans-serif;
-  font-weight: bold;
+  font-family: 'Stardos Stencil', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-weight: normal;
   line-height: 1.2857em;
   text-transform: none;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 .ui.header:first-child {
@@ -10631,7 +10631,7 @@ img.ui.bordered.image {
   display: -webkit-inline-flex;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 .ui.input input {
@@ -10645,11 +10645,11 @@ img.ui.bordered.image {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   text-align: left;
   line-height: 1.2142em;
-  font-family: 'Inconsolata', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'et-book', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   padding: 0.50401111em 0.77777778em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   border-radius: 0.22222222rem;
   -webkit-transition: box-shadow 0.1s ease, border-color 0.1s ease;
   transition: box-shadow 0.1s ease, border-color 0.1s ease;
@@ -10699,7 +10699,7 @@ img.ui.bordered.image {
 .ui.input.down input {
   border-color: rgba(0, 0, 0, 0.3);
   background: #FAFAFA;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   box-shadow: none;
 }
 
@@ -10752,17 +10752,17 @@ img.ui.bordered.image {
 
 .ui.input.focus input::-webkit-input-placeholder,
 .ui.input input:focus::-webkit-input-placeholder {
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 .ui.input.focus input::-moz-placeholder,
 .ui.input input:focus::-moz-placeholder {
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 .ui.input.focus input::-ms-input-placeholder,
 .ui.input input:focus::-ms-input-placeholder {
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 /*--------------------
@@ -12325,7 +12325,7 @@ a.ui.basic.black.label:hover {
 .ui.basic.label {
   background: none #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   box-shadow: none;
 }
 
@@ -12334,7 +12334,7 @@ a.ui.basic.black.label:hover {
 a.ui.basic.label:hover {
   text-decoration: none;
   background: none #FFFFFF;
-  color: #1e70bf;
+  color: #110c0c;
   box-shadow: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: none;
 }
@@ -12777,9 +12777,9 @@ ol.ui.list ol li,
 .ui.list > .item .header {
   display: block;
   margin: 0em;
-  font-family: 'Inconsolata', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Stardos Stencil', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 /* Description */
@@ -12802,12 +12802,12 @@ ol.ui.list ol li,
 .ui.list .list > a.item,
 .ui.list > a.item {
   cursor: pointer;
-  color: #4183C4;
+  color: #111;
 }
 
 .ui.list .list > a.item:hover,
 .ui.list > a.item:hover {
-  color: #1e70bf;
+  color: #110c0c;
 }
 
 /* Linked Item Icons */
@@ -12822,12 +12822,12 @@ ol.ui.list ol li,
 .ui.list .list > .item a.header,
 .ui.list > .item a.header {
   cursor: pointer;
-  color: #4183C4 !important;
+  color: #111 !important;
 }
 
 .ui.list .list > .item a.header:hover,
 .ui.list > .item a.header:hover {
-  color: #1e70bf !important;
+  color: #110c0c !important;
 }
 
 /* Floated Content */
@@ -12967,7 +12967,7 @@ ol.ui.list ol li,
 
 .ui.list .list > a.item:hover .icon,
 .ui.list > a.item:hover .icon {
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 /*******************************
@@ -13003,7 +13003,7 @@ ol.ui.list ol li,
 
 .ui.inverted.list .list > a.item:hover,
 .ui.inverted.list > a.item:hover {
-  color: #1e70bf;
+  color: #110c0c;
 }
 
 /* Linking Content */
@@ -13013,7 +13013,7 @@ ol.ui.list ol li,
 }
 
 .ui.inverted.list .item a:not(.ui):hover {
-  color: #1e70bf !important;
+  color: #110c0c !important;
 }
 
 /*-------------------
@@ -13248,7 +13248,7 @@ ul.ui.horizontal.bulleted.list li:first-child,
 
 ul.ui.horizontal.bulleted.list li::before,
 .ui.horizontal.bulleted.list > .item::before {
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 ul.ui.horizontal.bulleted.list li:first-child::before,
@@ -13291,7 +13291,7 @@ ol.ui.list li:before,
   counter-increment: ordered;
   content: counters(ordered, ".") " ";
   text-align: right;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   vertical-align: middle;
   opacity: 0.8;
 }
@@ -13804,7 +13804,7 @@ ol.ui.horizontal.list li:before,
 /* White Dimmer (Inverted) */
 
 .ui.inverted.dimmer .ui.loader {
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 .ui.inverted.dimmer .ui.loader:before {
@@ -15133,7 +15133,7 @@ ol.ui.horizontal.list li:before,
 /* Nested */
 
 .ui.inverted.segment .segment {
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 .ui.inverted.segment .inverted.segment {
@@ -15316,7 +15316,7 @@ ol.ui.horizontal.list li:before,
   margin: 0em 0em;
   padding: 1.16666667em 2em;
   background: #FFFFFF;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   box-shadow: none;
   border-radius: 0em;
   border: none;
@@ -15378,7 +15378,7 @@ ol.ui.horizontal.list li:before,
 /* Title */
 
 .ui.steps .step .title {
-  font-family: 'Inconsolata', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Stardos Stencil', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1.16666667em;
   font-weight: bold;
 }
@@ -15392,7 +15392,7 @@ ol.ui.horizontal.list li:before,
 .ui.steps .step .description {
   font-weight: normal;
   font-size: 0.94444444em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 .ui.steps .step > .description {
@@ -15643,7 +15643,7 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.steps .step.active .title {
-  color: #4183C4;
+  color: #111;
 }
 
 .ui.ordered.steps .step.active:before,
@@ -15677,7 +15677,7 @@ ol.ui.horizontal.list li:before,
 .ui.steps a.active.step:hover {
   cursor: pointer;
   background: #DCDDDE;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 /* Completed */
@@ -15966,11 +15966,11 @@ ol.ui.horizontal.list li:before,
 /* Link */
 
 .ui.breadcrumb a {
-  color: #4183C4;
+  color: #111;
 }
 
 .ui.breadcrumb a:hover {
-  color: #1e70bf;
+  color: #110c0c;
 }
 
 /* Icon Divider */
@@ -16108,7 +16108,7 @@ ol.ui.horizontal.list li:before,
 .ui.form .field > label {
   display: block;
   margin: 0em 0em 0.22222222rem 0em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   font-size: 0.94444444em;
   font-weight: bold;
   text-transform: none;
@@ -16152,7 +16152,7 @@ ol.ui.horizontal.list li:before,
 .ui.form input[type="time"],
 .ui.form input[type="text"],
 .ui.form input[type="url"] {
-  font-family: 'Inconsolata', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'et-book', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   margin: 0em;
   outline: none;
   -webkit-appearance: none;
@@ -16162,7 +16162,7 @@ ol.ui.horizontal.list li:before,
   font-size: 1em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   border-radius: 0.22222222rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
@@ -16179,7 +16179,7 @@ ol.ui.horizontal.list li:before,
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
   outline: none;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   border-radius: 0.22222222rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
@@ -16221,7 +16221,7 @@ ol.ui.horizontal.list li:before,
   border-radius: 0.22222222rem;
   box-shadow: 0em 0em 0em 0em transparent inset;
   padding: 0.62em 0.77777778em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   -webkit-transition: color 0.1s ease, border-color 0.1s ease;
   transition: color 0.1s ease, border-color 0.1s ease;
 }
@@ -16374,27 +16374,27 @@ ol.ui.horizontal.list li:before,
 /* browsers require these rules separate */
 
 .ui.form ::-webkit-input-placeholder {
-  color: rgba(140, 140, 140, 0.87);
+  color: #9d9d9d;
 }
 
 .ui.form ::-ms-input-placeholder {
-  color: rgba(140, 140, 140, 0.87);
+  color: #9d9d9d;
 }
 
 .ui.form ::-moz-placeholder {
-  color: rgba(140, 140, 140, 0.87);
+  color: #9d9d9d;
 }
 
 .ui.form :focus::-webkit-input-placeholder {
-  color: rgba(89, 89, 89, 0.87);
+  color: #6a6a6a;
 }
 
 .ui.form :focus::-ms-input-placeholder {
-  color: rgba(89, 89, 89, 0.87);
+  color: #6a6a6a;
 }
 
 .ui.form :focus::-moz-placeholder {
-  color: rgba(89, 89, 89, 0.87);
+  color: #6a6a6a;
 }
 
 /* Error Placeholder */
@@ -16809,7 +16809,7 @@ ol.ui.horizontal.list li:before,
 .ui.inverted.form input[type="url"] {
   background: #FFFFFF;
   border-color: rgba(255, 255, 255, 0.1);
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   box-shadow: none;
 }
 
@@ -16830,7 +16830,7 @@ ol.ui.horizontal.list li:before,
 
 .ui.form .grouped.fields > label {
   margin: 0em 0em 0.22222222rem 0em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   font-size: 0.94444444em;
   font-weight: bold;
   text-transform: none;
@@ -17122,7 +17122,7 @@ ol.ui.horizontal.list li:before,
   vertical-align: baseline;
   font-size: 0.94444444em;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   text-transform: none;
 }
 
@@ -19532,7 +19532,7 @@ ol.ui.horizontal.list li:before,
   display: -ms-flexbox;
   display: flex;
   margin: 1rem 0em;
-  font-family: 'Inconsolata', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'et-book', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   background: #FFFFFF;
   font-weight: normal;
   border: 1px solid rgba(34, 36, 38, 0.15);
@@ -19604,7 +19604,7 @@ ol.ui.horizontal.list li:before,
   background: none;
   padding: 0.94444444em 1.16666667em;
   text-transform: none;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   font-weight: normal;
   -webkit-transition: background 0.1s ease, box-shadow 0.1s ease, color 0.1s ease;
   transition: background 0.1s ease, box-shadow 0.1s ease, color 0.1s ease;
@@ -19778,7 +19778,7 @@ ol.ui.horizontal.list li:before,
   font-size: 1em !important;
   padding: 0.72222222em 1.16666667em !important;
   background: transparent !important;
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: #111 !important;
   text-transform: none !important;
   font-weight: normal !important;
   box-shadow: none !important;
@@ -20188,7 +20188,7 @@ Floated Menu / Item
   border-right: 1px solid transparent;
   border-top: 2px solid transparent;
   padding: 0.94444444em 1.44444444em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 .ui.tabular.menu .item:before {
@@ -20553,7 +20553,7 @@ Floated Menu / Item
 .ui.secondary.pointing.menu .link.item:hover,
 .ui.secondary.pointing.menu a.item:hover {
   background-color: transparent;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 /* Pressed */
@@ -21741,7 +21741,7 @@ Floated Menu / Item
   background: #F8F8F9;
   padding: 1em 1.5em;
   line-height: 1.4285em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   -webkit-transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
   transition: opacity 0.1s ease, color 0.1s ease, background 0.1s ease, box-shadow 0.1s ease;
   border-radius: 0.22222222rem;
@@ -21764,7 +21764,7 @@ Floated Menu / Item
 
 .ui.message .header {
   display: block;
-  font-family: 'Inconsolata', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Stardos Stencil', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
   margin: -0.14285em 0em 0rem 0em;
 }
@@ -22268,7 +22268,7 @@ Floated Menu / Item
   box-shadow: none;
   border-radius: 0.22222222rem;
   text-align: left;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   border-collapse: separate;
   border-spacing: 0px;
 }
@@ -22303,7 +22303,7 @@ Floated Menu / Item
   cursor: auto;
   background: #F9FAFB;
   text-align: inherit;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   padding: 0.94444444em 0.72222222em;
   vertical-align: inherit;
   font-style: none;
@@ -22340,7 +22340,7 @@ Floated Menu / Item
   border-top: 1px solid rgba(34, 36, 38, 0.15);
   background: #F9FAFB;
   text-align: inherit;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   padding: 0.72222222em 0.72222222em;
   vertical-align: middle;
   font-style: normal;
@@ -22626,13 +22626,13 @@ Floated Menu / Item
 
 .ui.table tr.active,
 .ui.table td.active {
-  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.87) inset;
+  box-shadow: 0px 0px 0px #111 inset;
 }
 
 .ui.table tr.active,
 .ui.table td.active {
   background: #E0E0E0 !important;
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: #111 !important;
 }
 
 /*--------------
@@ -22808,7 +22808,7 @@ Floated Menu / Item
 .ui.table tr td.selectable.active:hover,
 .ui.selectable.table tr:hover td.active {
   background: #E0E0E0 !important;
-  color: rgba(0, 0, 0, 0.87) !important;
+  color: #111 !important;
 }
 
 .ui.selectable.table tr.positive:hover,
@@ -23214,7 +23214,7 @@ Floated Menu / Item
   cursor: pointer;
   white-space: nowrap;
   border-left: 1px solid rgba(34, 36, 38, 0.15);
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 .ui.sortable.table thead th:first-child {
@@ -23971,7 +23971,7 @@ Floated Menu / Item
 .ui.card > .content > .header {
   display: block;
   margin: '';
-  font-family: 'Inconsolata', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Stardos Stencil', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   color: rgba(0, 0, 0, 0.85);
 }
 
@@ -24122,7 +24122,7 @@ Floated Menu / Item
 
 .ui.cards > .card > .content > a.header:hover,
 .ui.card > .content > a.header:hover {
-  color: #1e70bf;
+  color: #110c0c;
 }
 
 /* Meta */
@@ -24134,7 +24134,7 @@ Floated Menu / Item
 
 .ui.cards > .card .meta > a:not(.ui):hover,
 .ui.card .meta > a:not(.ui):hover {
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 /*--------------
@@ -24242,7 +24242,7 @@ Floated Menu / Item
 
 .ui.cards > .card > .extra a:not(.ui):hover,
 .ui.card > .extra a:not(.ui):hover {
-  color: #1e70bf;
+  color: #110c0c;
 }
 
 /*******************************
@@ -24959,7 +24959,7 @@ a.ui.card:hover,
 
 .ui.comments .comment .author {
   font-size: 1em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   font-weight: bold;
 }
 
@@ -24968,7 +24968,7 @@ a.ui.card:hover,
 }
 
 .ui.comments .comment a.author:hover {
-  color: #1e70bf;
+  color: #110c0c;
 }
 
 /*--------------
@@ -24999,7 +24999,7 @@ a.ui.card:hover,
   margin: 0.25em 0em 0.5em;
   font-size: 1em;
   word-wrap: break-word;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   line-height: 1.3;
 }
 
@@ -25262,7 +25262,7 @@ a.ui.card:hover,
   margin: 0em;
   font-size: 1em;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 /* Summary Image */
@@ -25319,7 +25319,7 @@ a.ui.card:hover,
   margin: 0.5em 0em 0em;
   background: none;
   padding: 0em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 /* Images */
@@ -25587,7 +25587,7 @@ a.ui.card:hover,
 .ui.items > .item > .content > .header {
   display: inline-block;
   margin: -0.21425em 0em 0em;
-  font-family: 'Inconsolata', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Stardos Stencil', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.85);
 }
@@ -25637,7 +25637,7 @@ a.ui.card:hover,
   max-width: auto;
   font-size: 1em;
   line-height: 1.4285em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 /*--------------
@@ -25699,7 +25699,7 @@ a.ui.card:hover,
 }
 
 .ui.items > .item > .content > a.header:hover {
-  color: #1e70bf;
+  color: #110c0c;
 }
 
 /* Meta */
@@ -25709,7 +25709,7 @@ a.ui.card:hover,
 }
 
 .ui.items > .item .meta > a:not(.ui):hover {
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 /*--------------
@@ -25933,7 +25933,7 @@ a.ui.card:hover,
 
 .ui.items a.item:hover .content .header,
 .ui.link.items > .item:hover .content .header {
-  color: #1e70bf;
+  color: #110c0c;
 }
 
 /*--------------
@@ -26069,7 +26069,7 @@ a.ui.card:hover,
 
 .ui.statistics .statistic > .value,
 .ui.statistic > .value {
-  font-family: 'Inconsolata', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'et-book', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 4rem;
   font-weight: normal;
   line-height: 1em;
@@ -26084,10 +26084,10 @@ a.ui.card:hover,
 
 .ui.statistics .statistic > .label,
 .ui.statistic > .label {
-  font-family: 'Inconsolata', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Stardos Stencil', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1em;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   text-transform: uppercase;
   text-align: center;
 }
@@ -26640,9 +26640,9 @@ a.ui.card:hover,
 
 .ui.accordion .title:not(.ui) {
   padding: 0.5em 0em;
-  font-family: 'Inconsolata', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Stardos Stencil', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 /* Content */
@@ -26780,13 +26780,13 @@ a.ui.card:hover,
 .ui.styled.accordion .accordion .title:hover,
 .ui.styled.accordion .accordion .active.title {
   background: transparent;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 .ui.styled.accordion .accordion .title:hover,
 .ui.styled.accordion .accordion .active.title {
   background: transparent;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 /* Active */
@@ -26960,7 +26960,7 @@ a.ui.card:hover,
   height: 17px;
   text-align: center;
   opacity: 0;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   -webkit-transition: border 0.1s ease, opacity 0.1s ease, box-shadow 0.1s ease, -webkit-transform 0.1s ease;
   transition: border 0.1s ease, opacity 0.1s ease, box-shadow 0.1s ease, -webkit-transform 0.1s ease;
   transition: border 0.1s ease, opacity 0.1s ease, transform 0.1s ease, box-shadow 0.1s ease;
@@ -26975,7 +26975,7 @@ a.ui.card:hover,
 
 .ui.checkbox label,
 .ui.checkbox + label {
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   -webkit-transition: color 0.1s ease;
   transition: color 0.1s ease;
 }
@@ -27190,7 +27190,7 @@ a.ui.card:hover,
   border-radius: 500rem;
   -webkit-transform: scale(0.46666667);
   transform: scale(0.46666667);
-  background-color: rgba(0, 0, 0, 0.87);
+  background-color: #111;
 }
 
 /* Focus */
@@ -27374,7 +27374,7 @@ a.ui.card:hover,
 .ui.toggle.checkbox label {
   min-height: 1.5rem;
   padding-left: 4.5rem;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 .ui.toggle.checkbox label {
@@ -27450,7 +27450,7 @@ a.ui.card:hover,
 
 .ui.toggle.checkbox input:checked ~ .box:before,
 .ui.toggle.checkbox input:checked ~ label:before {
-  background-color: #2185D0 !important;
+  background-color: #CD5C5C !important;
 }
 
 .ui.toggle.checkbox input:checked ~ .box:after,
@@ -27467,7 +27467,7 @@ a.ui.card:hover,
 
 .ui.toggle.checkbox input:focus:checked ~ .box:before,
 .ui.toggle.checkbox input:focus:checked ~ label:before {
-  background-color: #0d71bb !important;
+  background-color: #d12f2f !important;
 }
 
 /*******************************
@@ -27855,7 +27855,7 @@ body.dimmable > .dimmer {
   text-align: left;
   border-top: none;
   line-height: 1em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   padding: 0.72222222rem 1.16666667rem !important;
   font-size: 1rem;
   text-transform: none;
@@ -28108,7 +28108,7 @@ body.dimmable > .dimmer {
   background: #FFFFFF;
   display: inline-block;
   padding: 0.61111111em 2.37777778em 0.61111111em 0.77777778em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   box-shadow: none;
   border: 1px solid rgba(34, 36, 38, 0.15);
   border-radius: 0.22222222rem;
@@ -29511,7 +29511,7 @@ select.ui.dropdown {
 
 .ui.modal > .header {
   display: block;
-  font-family: 'Inconsolata', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Stardos Stencil', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   background: #FFFFFF;
   margin: 0em;
   padding: 1.25rem 1.5rem;
@@ -29684,7 +29684,7 @@ select.ui.dropdown {
   .ui.modal > .close {
     top: 1.0535rem;
     right: 1rem;
-    color: rgba(0, 0, 0, 0.87);
+    color: #111;
   }
 }
 
@@ -29787,7 +29787,7 @@ select.ui.dropdown {
 }
 
 .ui.inverted.dimmer > .basic.modal {
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 .ui.inverted.dimmer > .ui.basic.modal > .header {
@@ -29889,7 +29889,7 @@ select.ui.dropdown {
 .ui.fullscreen.modal > .close {
   top: 1.0535rem;
   right: 1rem;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 /*--------------
@@ -30021,7 +30021,7 @@ select.ui.dropdown {
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
   font-size: 1rem;
   text-align: center;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   border-radius: 0em 0em 0.22222222rem 0.22222222rem;
   -webkit-transition: 0.2s background ease;
   transition: 0.2s background ease;
@@ -30169,14 +30169,14 @@ a.ui.nag {
   padding: 0.833em 1em;
   font-weight: normal;
   font-style: normal;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   border-radius: 0.22222222rem;
   box-shadow: 0px 2px 4px 0px rgba(34, 36, 38, 0.12), 0px 2px 10px 0px rgba(34, 36, 38, 0.08);
 }
 
 .ui.popup > .header {
   padding: 0em;
-  font-family: 'Inconsolata', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Stardos Stencil', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1.125em;
   line-height: 1.2;
   font-weight: bold;
@@ -30625,7 +30625,7 @@ a.ui.nag {
   right: auto;
   left: 0%;
   bottom: auto;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   font-weight: bold;
   text-shadow: none;
   margin-top: 0.2em;
@@ -30672,30 +30672,30 @@ a.ui.nag {
 
 .ui.indicating.progress[data-percent^="1"] .label,
 .ui.indicating.progress[data-percent^="2"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 .ui.indicating.progress[data-percent^="3"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 .ui.indicating.progress[data-percent^="4"] .label,
 .ui.indicating.progress[data-percent^="5"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 .ui.indicating.progress[data-percent^="6"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 .ui.indicating.progress[data-percent^="7"] .label,
 .ui.indicating.progress[data-percent^="8"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 .ui.indicating.progress[data-percent^="9"] .label,
 .ui.indicating.progress[data-percent^="100"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 /* Single Digits */
@@ -30721,7 +30721,7 @@ a.ui.nag {
 .ui.indicating.progress[data-percent="7"] .label,
 .ui.indicating.progress[data-percent="8"] .label,
 .ui.indicating.progress[data-percent="9"] .label {
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 /* Indicating Success */
@@ -31200,7 +31200,7 @@ a.ui.nag {
 .ui.rating .icon.selected,
 .ui.rating .icon.selected.active {
   background: transparent;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 /*-------------------
@@ -31438,7 +31438,7 @@ a.ui.nag {
   font-size: 1em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   box-shadow: 0em 0em 0em 0em transparent inset;
   -webkit-transition: background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, border-color 0.1s ease;
   transition: background-color 0.1s ease, color 0.1s ease, box-shadow 0.1s ease, border-color 0.1s ease;
@@ -31494,7 +31494,7 @@ a.ui.nag {
   overflow: hidden;
   font-size: 1em;
   padding: 0.83333333em 1.16666667em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   line-height: 1.33;
   border-bottom: 1px solid rgba(34, 36, 38, 0.1);
 }
@@ -31530,7 +31530,7 @@ a.ui.nag {
 
 .ui.search > .results .result .title {
   margin: -0.14285em 0em 0em;
-  font-family: 'Inconsolata', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Stardos Stencil', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-weight: bold;
   font-size: 1em;
   color: rgba(0, 0, 0, 0.85);
@@ -31556,16 +31556,16 @@ a.ui.nag {
 }
 
 .ui.search > .results > .message .header {
-  font-family: 'Inconsolata', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Stardos Stencil', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1rem;
   font-weight: bold;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 .ui.search > .results > .message .description {
   margin-top: 0.25rem;
   font-size: 1em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 /* View All Results */
@@ -31575,7 +31575,7 @@ a.ui.nag {
   border-top: none;
   background: #F3F4F5;
   padding: 0.94444444em 1em;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   font-weight: bold;
   text-align: center;
 }
@@ -31651,7 +31651,7 @@ a.ui.nag {
 }
 
 .ui.category.search > .results .category.active > .name {
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
 }
 
 .ui.search > .results .result.active,
@@ -31766,7 +31766,7 @@ a.ui.nag {
 .ui.category.search > .results .category > .name {
   width: 100px;
   background: transparent;
-  font-family: 'Inconsolata', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'et-book', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   font-size: 1em;
   float: 1em;
   float: left;
@@ -31898,7 +31898,7 @@ a.ui.nag {
   height: 15em;
   padding: 2em;
   background-color: #E6E6E6;
-  color: rgba(0, 0, 0, 0.87);
+  color: #111;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
 }
 
@@ -32146,7 +32146,7 @@ body.pushable {
 }
 
 body.pushable > .pusher {
-  background: #FFFFFF;
+  background: none;
 }
 
 /* Pusher should inherit background from context */
