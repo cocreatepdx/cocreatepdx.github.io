@@ -21,12 +21,6 @@ The main SCSS file for everything, yep
   border: none;
   margin: 0; }
 
-.ui.sticky.fixed.top {
-  /*width: 2em;*/
-  margin-top: 5em !important; }
-
-/*margin: 7rem 0 0 7rem !important;
-	max-width: 60% !important;*/
 .logotext {
   font-family: 'bagnard';
   /*font-family: 'young-serif';*/ }
@@ -64,9 +58,8 @@ The main SCSS file for everything, yep
 .workshop-description {
   clear: both; }
 
-.inconsolata {
-  font-family: 'Inconsolata';
-  font-weight: 700; }
+.tertiary-font {
+  font-family: 'oldenburg'; }
 
 .workshop-post-content {
   width: 25em; }
@@ -83,5 +76,40 @@ ul {
 
 .workshop-featured-image {
   margin-bottom: 3em; }
+
+.pay-btn {
+  margin-top: 1em !important; }
+
+.ui.sticky {
+  position: relative;
+  left: 1.5px !important;
+  top: 0;
+  transition: top 0.5s ease-in; }
+
+.ui.sticky.fixed.top {
+  top: 80px !important;
+  left: 211px !important; }
+
+.collection-heading {
+  margin-bottom: 1.5em; }
+
+/*.overlay {
+    float: left;
+    margin: 0em 3em 1em 0em;
+  }
+  .overlay .menu {
+    position: relative;
+    left: 0;
+    transition: left 0.5s ease;
+  }
+
+  .main.menu.fixed {
+    background-color: #FFFFFF;
+    border: 1px solid #DDD;
+    box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  }
+  .overlay.fixed .menu {
+    left: 800px;
+  }*/
 
 /*# sourceMappingURL=style.css.map */

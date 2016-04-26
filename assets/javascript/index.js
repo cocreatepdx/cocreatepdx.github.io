@@ -14,7 +14,8 @@ console.log('Hello world!');
                type: 'fixed'
            });
            $('.ui.sticky').sticky({
-                   // context: '#context',
+                   //context: '#context'
+                   offset: 80
                    // pushing: true
                });
            // $('.ui.sticky').visibility({
