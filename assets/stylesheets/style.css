@@ -1,0 +1,87 @@
+/*
+The main SCSS file for everything, yep
+*/
+/*@import "main";
+@import "base";
+@import "layout";
+@import "syntax-highlighting";
+*/
+.header-wrap {
+  background: url(https://source.unsplash.com/nqSUnXINsp4/1600x900) no-repeat center center fixed;
+  background-size: cover;
+  height: 47em; }
+
+.ui.container.main-content {
+  padding-top: 7em; }
+
+.ui.small.icon.buttons {
+  margin-bottom: 10px; }
+
+.ui.borderless.main.menu {
+  border: none;
+  margin: 0; }
+
+.ui.sticky.fixed.top {
+  /*width: 2em;*/
+  margin-top: 5em !important; }
+
+/*margin: 7rem 0 0 7rem !important;
+	max-width: 60% !important;*/
+.logotext {
+  font-family: 'bagnard';
+  /*font-family: 'young-serif';*/ }
+
+.page-heading {
+  font-size: 5em; }
+
+.tagline {
+  /*font-family: 'et-book-italic';*/
+  /*font-family: 'oldenburg';
+	font-size: 1.5em;*/
+  font-family: cmutypewritertextbold;
+  font-size: 1.5em;
+  font-kerning: normal;
+  text-transform: uppercase; }
+
+/*.heading {
+	font-family: 'CMUTypewriterTextItalic';
+	text-transform: uppercase;
+	font-family: Inknut Antiqua;
+	font-family: 'bagnard';
+	font-family: 'et-book-italic';
+}*/
+.workshop-list {
+  padding: 0; }
+
+.workshop-heading {
+  margin-top: 0; }
+
+.workshop-date {
+  font-family: 'Oldenburg';
+  float: right;
+  margin-top: .6em; }
+
+.workshop-description {
+  clear: both; }
+
+.inconsolata {
+  font-family: 'Inconsolata';
+  font-weight: 700; }
+
+.workshop-post-content {
+  width: 25em; }
+
+.aside-tagline {
+  font-family: cmutypewritertextbold;
+  font-size: 1.7em;
+  letter-spacing: 0.09em;
+  margin-bottom: .5em;
+  text-transform: uppercase; }
+
+ul {
+  list-style-type: circle; }
+
+.workshop-featured-image {
+  margin-bottom: 3em; }
+
+/*# sourceMappingURL=style.css.map */
