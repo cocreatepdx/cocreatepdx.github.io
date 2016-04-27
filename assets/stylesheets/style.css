@@ -23,6 +23,7 @@ The main SCSS file for everything, yep
 
 .logotext {
   font-family: 'bagnard';
+  margin-top: .2em !important;
   /*font-family: 'young-serif';*/ }
 
 .page-heading {
@@ -83,7 +84,7 @@ ul {
 .ui.sticky {
   position: relative;
   left: 1.5px !important;
-  top: 0;
+  top: -11px;
   transition: top 0.5s ease-in; }
 
 .ui.sticky.fixed.top {
@@ -92,6 +93,13 @@ ul {
 
 .collection-heading {
   margin-bottom: 1.5em; }
+
+nav ul {
+  list-style-type: none; }
+
+nav ul li {
+  display: inline;
+  margin-right: 1em; }
 
 /*.overlay {
     float: left;
