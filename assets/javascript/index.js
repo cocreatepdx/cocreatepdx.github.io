@@ -13,27 +13,31 @@ console.log('Hello world!');
            $('.main.menu').visibility({
                type: 'fixed'
            });
-           $('.ui.sticky').sticky({
-                   //context: '#context'
-                   offset: 80
-                   // pushing: true
-               });
-           // $('.ui.sticky').visibility({
-           //     type: 'fixed',
-           //     offset: 80
+           // $('.ui.sticky').sticky({
+           //         offset: 80,
+           //         bottomOffset: 80,
+           //         context: '#context'
+           //         //pushing: true
+           //         //observeChanges: true
+           //     });
+           // // $('.ui.sticky').visibility({
+           // //     type: 'fixed',
+           // //     offset: 80
+           // // });
+
+           // // lazy load images
+           // $('.image').visibility({
+           //     type: 'image',
+           //     transition: 'vertical flip in',
+           //     duration: 500
            // });
 
-           // lazy load images
-           $('.image').visibility({
-               type: 'image',
-               transition: 'vertical flip in',
-               duration: 500
-           });
-
-           // show dropdown on hover
-           $('.main.menu  .ui.dropdown').dropdown({
-               on: 'hover'
-           });
+           // // show dropdown on hover
+           // $('.main.menu  .ui.dropdown').dropdown({
+           //     on: 'hover'
+           // });
        });
+
+
 
 //# sourceMappingURL=index.js.map

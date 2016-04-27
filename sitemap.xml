@@ -17,10 +17,6 @@
 <lastmod>2015-02-03T00:00:00-08:00</lastmod>
 </url>
 <url>
-<loc>cocreatepdx.github.io/jekyll/example/example-content.html</loc>
-<lastmod>2014-03-01T00:00:00-08:00</lastmod>
-</url>
-<url>
 <loc>cocreatepdx.github.io/404.html</loc>
 </url>
 <url>
@@ -28,5 +24,14 @@
 </url>
 <url>
 <loc>cocreatepdx.github.io/</loc>
+</url>
+<url>
+<loc>cocreatepdx.github.io/privacy-policy/</loc>
+</url>
+<url>
+<loc>cocreatepdx.github.io/search.html</loc>
+</url>
+<url>
+<loc>cocreatepdx.github.io/terms-and-conditions/</loc>
 </url>
 </urlset>
