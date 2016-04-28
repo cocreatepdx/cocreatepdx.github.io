@@ -616,7 +616,7 @@ a {
 }
 
 a:hover {
-  color: #110c0c;
+  color: cornflowerblue;
   text-decoration: none;
 }
 
@@ -12334,7 +12334,7 @@ a.ui.basic.black.label:hover {
 a.ui.basic.label:hover {
   text-decoration: none;
   background: none #FFFFFF;
-  color: #110c0c;
+  color: cornflowerblue;
   box-shadow: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: none;
 }
@@ -12807,7 +12807,7 @@ ol.ui.list ol li,
 
 .ui.list .list > a.item:hover,
 .ui.list > a.item:hover {
-  color: #110c0c;
+  color: cornflowerblue;
 }
 
 /* Linked Item Icons */
@@ -12827,7 +12827,7 @@ ol.ui.list ol li,
 
 .ui.list .list > .item a.header:hover,
 .ui.list > .item a.header:hover {
-  color: #110c0c !important;
+  color: cornflowerblue !important;
 }
 
 /* Floated Content */
@@ -13003,7 +13003,7 @@ ol.ui.list ol li,
 
 .ui.inverted.list .list > a.item:hover,
 .ui.inverted.list > a.item:hover {
-  color: #110c0c;
+  color: cornflowerblue;
 }
 
 /* Linking Content */
@@ -13013,7 +13013,7 @@ ol.ui.list ol li,
 }
 
 .ui.inverted.list .item a:not(.ui):hover {
-  color: #110c0c !important;
+  color: cornflowerblue !important;
 }
 
 /*-------------------
@@ -15970,7 +15970,7 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.breadcrumb a:hover {
-  color: #110c0c;
+  color: cornflowerblue;
 }
 
 /* Icon Divider */
@@ -24122,7 +24122,7 @@ Floated Menu / Item
 
 .ui.cards > .card > .content > a.header:hover,
 .ui.card > .content > a.header:hover {
-  color: #110c0c;
+  color: cornflowerblue;
 }
 
 /* Meta */
@@ -24242,7 +24242,7 @@ Floated Menu / Item
 
 .ui.cards > .card > .extra a:not(.ui):hover,
 .ui.card > .extra a:not(.ui):hover {
-  color: #110c0c;
+  color: cornflowerblue;
 }
 
 /*******************************
@@ -24968,7 +24968,7 @@ a.ui.card:hover,
 }
 
 .ui.comments .comment a.author:hover {
-  color: #110c0c;
+  color: cornflowerblue;
 }
 
 /*--------------
@@ -25699,7 +25699,7 @@ a.ui.card:hover,
 }
 
 .ui.items > .item > .content > a.header:hover {
-  color: #110c0c;
+  color: cornflowerblue;
 }
 
 /* Meta */
@@ -25933,7 +25933,7 @@ a.ui.card:hover,
 
 .ui.items a.item:hover .content .header,
 .ui.link.items > .item:hover .content .header {
-  color: #110c0c;
+  color: cornflowerblue;
 }
 
 /*--------------

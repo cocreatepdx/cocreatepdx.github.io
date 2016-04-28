@@ -75,6 +75,10 @@ The main SCSS file for everything, yep
 ul {
   list-style-type: circle; }
 
+footer ul {
+  list-style: none;
+  padding: 0; }
+
 .workshop-featured-image {
   margin-bottom: 3em; }
 
@@ -108,6 +112,20 @@ nav ul li {
 
 .footer {
   background-color: 'lavenderblush'; }
+
+.tag-list {
+  list-style: none;
+  padding: 0; }
+
+.tag {
+  display: inline; }
+
+.mini-title {
+  font-family: 'cmutypewritertextbold';
+  text-transform: uppercase; }
+
+.mini-date {
+  float: right; }
 
 /*.overlay {
     float: left;
