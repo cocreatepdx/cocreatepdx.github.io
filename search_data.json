@@ -1,9 +1,9 @@
 {
   
 
-    "workshops-spring-2016-book-making-workshop-html": {
-      "title": "Book Making",
-      "url": " /workshops/spring-2016/book-making-workshop.html",
+    "workshops-spring-2016-book-making-workshop": {
+      "title": "Book Making Test",
+      "url": " /workshops/spring-2016/book-making-workshop/",
       "author": "",
       "category": "",
       "tags": "book-making"
@@ -11,9 +11,9 @@
     ,
   
 
-    "workshops-spring-2016-jewelry-making-html": {
+    "workshops-spring-2016-jewelry-making": {
       "title": "Necklace and Bracelet Making",
-      "url": " /workshops/spring-2016/jewelry-making.html",
+      "url": " /workshops/spring-2016/jewelry-making/",
       "author": "",
       "category": "",
       "tags": "jewelry"
@@ -21,9 +21,9 @@
     ,
   
 
-    "workshops-spring-2016-monogram-stamp-and-stationary-html": {
+    "workshops-spring-2016-monogram-stamp-and-stationary": {
       "title": "Monogram Stamp &amp; Stationary",
-      "url": " /workshops/spring-2016/monogram-stamp-and-stationary.html",
+      "url": " /workshops/spring-2016/monogram-stamp-and-stationary/",
       "author": "",
       "category": "",
       "tags": "printmaking, stationary, and red"
@@ -31,9 +31,19 @@
     ,
   
 
-    "blog-post-first-blog-post-html": {
+    "workshops-spring-2015-book-making-workshop": {
+      "title": "Book Making Old",
+      "url": " /workshops/spring-2015/book-making-workshop/",
+      "author": "",
+      "category": "",
+      "tags": "book-making"
+    }
+    ,
+  
+
+    "blogpost-first-blog-post": {
       "title": "My blog",
-      "url": " /blog-post/first-blog-post.html",
+      "url": " /blogpost/first-blog-post/",
       "author": "",
       "category": "",
       "tags": "book-making"
@@ -41,9 +51,9 @@
     ,
   
 
-    "blog-address-to-the-nation-george-w-bush-html": {
+    "blogpost-address-to-the-nation-george-w-bush": {
       "title": "Another Book Post",
-      "url": " /blog/address-to-the-nation-george-w-bush.html",
+      "url": " /blogpost/address-to-the-nation-george-w-bush/",
       "author": "",
       "category": "",
       "tags": "book-making"
@@ -51,9 +61,9 @@
     ,
   
 
-    "workshops-spring-2014-monogram-stamp-and-stationary-copy-html": {
+    "workshops-spring-2014-monogram-stamp-and-stationary-copy": {
       "title": "Monogram Stamp &amp; Stationary",
-      "url": " /workshops/spring-2014/monogram-stamp-and-stationary-(copy).html",
+      "url": " /workshops/spring-2014/monogram-stamp-and-stationary-(copy)/",
       "author": "",
       "category": "",
       "tags": "printmaking, stationary, and red"
