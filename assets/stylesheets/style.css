@@ -4,9 +4,13 @@ The main SCSS file for everything, yep
 h1, h2, h3, h4, h5, h6 {
   font-style: italic; }
 
+.uppercase {
+  text-transform: uppercase; }
+
 .logotext {
-  font-family: 'bagnard';
-  margin-top: .2em !important; }
+  font-family: 'CMUTypewriterTextRegular';
+  margin-top: .2em !important;
+  font-style: normal; }
 
 .page-heading {
   font-size: 5em; }
@@ -31,8 +35,29 @@ h1, h2, h3, h4, h5, h6 {
   font-style: normal;
   text-transform: uppercase; }
 
+.char12 {
+  position: relative;
+  right: 5px; }
+
+.nav-logotext {
+  font-size: 2em;
+  margin-top: 25px;
+  position: absolute; }
+
+#instafeed {
+  position: relative;
+  top: -226px; }
+
+.gram-li {
+  margin-bottom: 1em; }
+
+.gram {
+  width: 250px !important; }
+
 .header-wrap {
-  background: url(https://source.unsplash.com/nqSUnXINsp4/1600x900) no-repeat center center fixed;
+  background: url(https://source.unsplash.com/iOJGA9M2Zh4/1600x900) no-repeat center center fixed;
+  /*	background: url(https://source.unsplash.com/YdpDztAnW9w/1600x900) no-repeat center center fixed; 
+*/
   background-size: cover;
   height: 47em; }
 
@@ -61,12 +86,19 @@ h1, h2, h3, h4, h5, h6 {
 ul {
   list-style-type: circle; }
 
+.list-style-none {
+  list-style: none; }
+
 footer ul {
   list-style: none;
   padding: 0; }
 
-.workshop-featured-image {
+.featured {
   margin-bottom: 3em; }
+
+.workshop-list-featured {
+  margin-bottom: 2em;
+  width: 550px; }
 
 .pay-btn {
   margin-top: 1em !important; }
@@ -108,5 +140,17 @@ nav ul li {
 
 .workshop-notes {
   margin-top: 1em; }
+
+.inline {
+  display: inline; }
+
+.floated-left {
+  float: left; }
+
+.logo-container {
+  margin: 15px 0; }
+
+.company-tagline {
+  margin-left: 15px; }
 
 /*# sourceMappingURL=style.css.map */
