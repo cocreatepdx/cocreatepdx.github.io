@@ -10,10 +10,13 @@ h1, h2, h3, h4, h5, h6 {
 .logotext {
   font-family: 'CMUTypewriterTextRegular';
   margin-top: .2em !important;
-  font-style: normal; }
+  font-style: normal;
+  color: white;
+  padding: 0 30px;
+  text-shadow: 2px 2px 2px #585858; }
 
 .page-heading {
-  font-size: 5em; }
+  font-size: 3em; }
 
 .tagline {
   font-family: cardo;
@@ -39,6 +42,92 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   right: 5px; }
 
+a.logotext:hover {
+  color: #F9A7B7; }
+
+.text-shadow {
+  text-shadow: 2px 2px 2px #f95573; }
+
+.intro {
+  color: white;
+  font-size: 2em; }
+
+.typewriter-font-bold {
+  font-family: cmutypewritertextbold; }
+
+.at-sign {
+  color: white;
+  font-size: 3em; }
+
+.at-louise-and-clark {
+  bottom: 24px;
+  position: relative; }
+
+.seasonal-accent-text-color {
+  color: #F95573; }
+
+.seasonal-tagline {
+  font-family: CrickxRegular;
+  font-size: 5em;
+  margin-bottom: 0; }
+
+.seasonal-tagline .char1,
+.seasonal-tagline .char6 {
+  position: relative;
+  bottom: 15px;
+  color: #F95573; }
+
+.seasonal-tagline .char2,
+.seasonal-tagline .char7 {
+  position: relative;
+  top: 15px;
+  color: #FBF828; }
+
+.seasonal-tagline .char3,
+.seasonal-tagline .char8 {
+  position: relative;
+  bottom: 5px;
+  color: #FBD528; }
+
+.seasonal-tagline .char4,
+.seasonal-tagline .char9 {
+  position: relative;
+  top: 5px;
+  color: #F9A7B7; }
+
+.seasonal-tagline .char5,
+.seasonal-tagline .char10 {
+  position: relative;
+  bottom: 5px;
+  color: #C4E356; }
+
+.seasonal-tagline .char12 {
+  position: relative;
+  bottom: 15px;
+  color: #F95573; }
+
+.seasonal-tagline .char13 {
+  position: relative;
+  top: 15px;
+  right: 7px;
+  color: #FBF828; }
+
+.seasonal-tagline .char14 {
+  position: relative;
+  bottom: 5px;
+  color: #FBD528; }
+
+.seasonal-tagline .char15 {
+  position: relative;
+  top: 5px;
+  color: #F9A7B7; }
+
+.seasonal-tagline * {
+  text-shadow: 2px 2px 2px #3a3a3a; }
+
+.header {
+  margin-top: 3em; }
+
 .nav-logotext {
   font-size: 2em;
   margin-top: 25px;
@@ -46,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #instafeed {
   position: relative;
-  top: -226px; }
+  top: -330px; }
 
 .gram-li {
   margin-bottom: 1em; }
@@ -55,12 +144,20 @@ h1, h2, h3, h4, h5, h6 {
   width: 250px !important; }
 
 .header-wrap {
-  background: url(https://source.unsplash.com/iOJGA9M2Zh4/1600x900) no-repeat center center fixed;
-  /*	background: url(https://source.unsplash.com/YdpDztAnW9w/1600x900) no-repeat center center fixed; 
+  /*	background: url(https://source.unsplash.com/iOJGA9M2Zh4/1600x900) no-repeat center center fixed; 
 */
+  background: url(https://source.unsplash.com/zpkYWVAni30/1600x900) no-repeat center center fixed;
   background-size: cover;
   height: 47em; }
 
+/*.main-content-wrap {
+	background: url(https://source.unsplash.com/zpkYWVAni30/1600x900) no-repeat center center fixed; 
+-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 47em;
+}*/
 .ui.container.main-content {
   margin: 7em 0; }
 
