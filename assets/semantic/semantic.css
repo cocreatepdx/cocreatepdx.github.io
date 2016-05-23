@@ -8,7 +8,7 @@
  * http://opensource.org/licenses/MIT
  *
  */
-@import url('https://fonts.googleapis.com/css?family=Cardo|Oldenburg|Londrina+Solid|Inconsolata');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn|Old+Standard+TT');
 /*!
  * # Semantic UI 2.1.8 - Reset
  * http://github.com/semantic-org/semantic-ui/
@@ -529,7 +529,7 @@ body {
   overflow-x: hidden;
   min-width: 320px;
   background: none;
-  font-family: 'Cardo', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Vollkorn', georgia, serif;
   font-size: 21px;
   line-height: 1.6em;
   color: #111;
@@ -544,7 +544,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Cardo', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Vollkorn', georgia, serif;
   line-height: 1.2857em;
   margin: calc(2rem -  0.14285em ) 0em 1rem;
   font-weight: normal;
@@ -691,7 +691,7 @@ input::selection {
   vertical-align: baseline;
   background: #E0E1E2 none;
   color: rgba(0, 0, 0, 0.6);
-  font-family: 'Cardo';
+  font-family: 'Vollkorn';
   margin: 0em 0.25em 0em 0em;
   padding: 0.52380952em 1.5em 0.52380952em;
   text-transform: none;
@@ -3529,7 +3529,7 @@ input::selection {
 
 .ui.red.buttons .button,
 .ui.red.button {
-  background-color: #DB2828;
+  background-color: #F95573;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -3541,21 +3541,21 @@ input::selection {
 
 .ui.red.buttons .button:hover,
 .ui.red.button:hover {
-  background-color: #d01919;
+  background-color: #ff355a;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.red.buttons .button:focus,
 .ui.red.button:focus {
-  background-color: #ca1010;
+  background-color: #ff264e;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.red.buttons .button:active,
 .ui.red.button:active {
-  background-color: #b21e1e;
+  background-color: #f7244a;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -3564,7 +3564,7 @@ input::selection {
 .ui.red.buttons .active.button:active,
 .ui.red.active.button,
 .ui.red.button .active.button:active {
-  background-color: #d41515;
+  background-color: #ff355a;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -3573,35 +3573,35 @@ input::selection {
 
 .ui.basic.red.buttons .button,
 .ui.basic.red.button {
-  box-shadow: 0px 0px 0px 1px #DB2828 inset !important;
-  color: #DB2828 !important;
+  box-shadow: 0px 0px 0px 1px #F95573 inset !important;
+  color: #F95573 !important;
 }
 
 .ui.basic.red.buttons .button:hover,
 .ui.basic.red.button:hover {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #d01919 inset !important;
-  color: #d01919 !important;
+  box-shadow: 0px 0px 0px 1px #ff355a inset !important;
+  color: #ff355a !important;
 }
 
 .ui.basic.red.buttons .button:focus,
 .ui.basic.red.button:focus {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #ca1010 inset !important;
-  color: #d01919 !important;
+  box-shadow: 0px 0px 0px 1px #ff264e inset !important;
+  color: #ff355a !important;
 }
 
 .ui.basic.red.buttons .active.button,
 .ui.basic.red.active.button {
   background: transparent !important;
-  box-shadow: 0px 0px 0px 1px #d41515 inset !important;
-  color: #b21e1e !important;
+  box-shadow: 0px 0px 0px 1px #ff355a inset !important;
+  color: #f7244a !important;
 }
 
 .ui.basic.red.buttons .button:active,
 .ui.basic.red.button:active {
-  box-shadow: 0px 0px 0px 1px #b21e1e inset !important;
-  color: #b21e1e !important;
+  box-shadow: 0px 0px 0px 1px #f7244a inset !important;
+  color: #f7244a !important;
 }
 
 .ui.buttons:not(.vertical) > .basic.red.button:not(:first-child) {
@@ -4312,7 +4312,7 @@ input::selection {
 
 .ui.negative.buttons .button,
 .ui.negative.button {
-  background-color: #DB2828 !important;
+  background-color: #F95573 !important;
   color: #FFFFFF;
   text-shadow: none;
   background-image: none;
@@ -4324,21 +4324,21 @@ input::selection {
 
 .ui.negative.buttons .button:hover,
 .ui.negative.button:hover {
-  background-color: #d01919 !important;
+  background-color: #ff355a !important;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.negative.buttons .button:focus,
 .ui.negative.button:focus {
-  background-color: #ca1010 !important;
+  background-color: #ff264e !important;
   color: #FFFFFF;
   text-shadow: none;
 }
 
 .ui.negative.buttons .button:active,
 .ui.negative.button:active {
-  background-color: #b21e1e !important;
+  background-color: #f7244a !important;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -4346,7 +4346,7 @@ input::selection {
 .ui.negative.buttons .active.button,
 .ui.negative.active.button,
 .ui.negative.buttons .active.button:active {
-  background-color: #d41515;
+  background-color: #ff355a;
   color: #FFFFFF;
   text-shadow: none;
 }
@@ -4579,7 +4579,7 @@ input::selection {
 /* Text Container */
 
 .ui.text.container {
-  font-family: 'Cardo', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Vollkorn', georgia, serif;
   max-width: 700px !important;
   line-height: 1.5;
 }
@@ -6186,7 +6186,7 @@ i.flag.zimbabwe:before {
   border: none;
   margin: calc(2rem -  0.14285em ) 0em 1rem;
   padding: 0em 0em;
-  font-family: 'Cardo', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Vollkorn', georgia, serif;
   font-weight: normal;
   line-height: 1.2857em;
   text-transform: none;
@@ -6524,15 +6524,15 @@ h5.ui.header .sub.header {
 /*--- Red ---*/
 
 .ui.red.header {
-  color: #DB2828 !important;
+  color: #F95573 !important;
 }
 
 a.ui.red.header:hover {
-  color: #d01919 !important;
+  color: #ff355a !important;
 }
 
 .ui.red.dividing.header {
-  border-bottom: 2px solid #DB2828;
+  border-bottom: 2px solid #F95573;
 }
 
 /* Inverted */
@@ -7213,7 +7213,7 @@ i.inverted.icon {
 /* Red */
 
 i.red.icon {
-  color: #DB2828 !important;
+  color: #F95573 !important;
 }
 
 i.inverted.red.icon {
@@ -7222,7 +7222,7 @@ i.inverted.red.icon {
 
 i.inverted.bordered.red.icon,
 i.inverted.circular.red.icon {
-  background-color: #DB2828 !important;
+  background-color: #F95573 !important;
   color: #FFFFFF !important;
 }
 
@@ -10644,7 +10644,7 @@ img.ui.bordered.image {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   text-align: left;
   line-height: 1.2142em;
-  font-family: 'Cardo', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Vollkorn', georgia, serif;
   padding: 0.41670952em 0.66666667em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
@@ -11723,8 +11723,8 @@ a.ui.active.label:ActiveHover:before {
 
 .ui.red.labels .label,
 .ui.red.label {
-  background-color: #DB2828 !important;
-  border-color: #DB2828 !important;
+  background-color: #F95573 !important;
+  border-color: #F95573 !important;
   color: #FFFFFF !important;
 }
 
@@ -11732,8 +11732,8 @@ a.ui.active.label:ActiveHover:before {
 
 .ui.red.labels .label:hover,
 a.ui.red.label:hover {
-  background-color: #d01919 !important;
-  border-color: #d01919 !important;
+  background-color: #ff355a !important;
+  border-color: #ff355a !important;
   color: #FFFFFF !important;
 }
 
@@ -11747,22 +11747,22 @@ a.ui.red.label:hover {
 /* Ribbon */
 
 .ui.red.ribbon.label {
-  border-color: #b21e1e !important;
+  border-color: #f7244a !important;
 }
 
 /* Basic */
 
 .ui.basic.red.label {
   background-color: #FFFFFF !important;
-  color: #DB2828 !important;
-  border-color: #DB2828 !important;
+  color: #F95573 !important;
+  border-color: #F95573 !important;
 }
 
 .ui.basic.red.labels a.label:hover,
 a.ui.basic.red.label:hover {
   background-color: #FFFFFF !important;
-  color: #d01919 !important;
-  border-color: #d01919 !important;
+  color: #ff355a !important;
+  border-color: #ff355a !important;
 }
 
 /*--- Orange ---*/
@@ -12776,7 +12776,7 @@ ol.ui.list ol li,
 .ui.list > .item .header {
   display: block;
   margin: 0em;
-  font-family: 'Cardo', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Vollkorn', georgia, serif;
   font-weight: bold;
   color: #111;
 }
@@ -14943,11 +14943,11 @@ ol.ui.horizontal.list li:before,
 /* Red */
 
 .ui.red.segment:not(.inverted) {
-  border-top: 2px solid #DB2828;
+  border-top: 2px solid #F95573;
 }
 
 .ui.inverted.red.segment {
-  background-color: #DB2828 !important;
+  background-color: #F95573 !important;
   color: #FFFFFF !important;
 }
 
@@ -15377,7 +15377,7 @@ ol.ui.horizontal.list li:before,
 /* Title */
 
 .ui.steps .step .title {
-  font-family: 'Cardo', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Vollkorn', georgia, serif;
   font-size: 1.14285714em;
   font-weight: bold;
 }
@@ -16151,7 +16151,7 @@ ol.ui.horizontal.list li:before,
 .ui.form input[type="time"],
 .ui.form input[type="text"],
 .ui.form input[type="url"] {
-  font-family: 'Cardo', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Vollkorn', georgia, serif;
   margin: 0em;
   outline: none;
   -webkit-appearance: none;
@@ -16759,7 +16759,7 @@ ol.ui.horizontal.list li:before,
 .ui.form .required.field > .checkbox:after {
   margin: -0.2em 0em 0em 0.2em;
   content: '*';
-  color: #DB2828;
+  color: #F95573;
 }
 
 .ui.form .required.fields:not(.grouped) > .field > label:after,
@@ -18745,7 +18745,7 @@ ol.ui.horizontal.list li:before,
 .ui.grid > .red.row,
 .ui.grid > .red.column,
 .ui.grid > .row > .red.column {
-  background-color: #DB2828 !important;
+  background-color: #F95573 !important;
   color: #FFFFFF;
 }
 
@@ -19531,7 +19531,7 @@ ol.ui.horizontal.list li:before,
   display: -ms-flexbox;
   display: flex;
   margin: 1rem 0em;
-  font-family: 'Cardo', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Vollkorn', georgia, serif;
   background: #FFFFFF;
   font-weight: normal;
   border: 1px solid rgba(34, 36, 38, 0.15);
@@ -20917,8 +20917,8 @@ Floated Menu / Item
 
 .ui.menu .red.active.item,
 .ui.red.menu .active.item {
-  border-color: #DB2828 !important;
-  color: #DB2828 !important;
+  border-color: #F95573 !important;
+  color: #F95573 !important;
 }
 
 .ui.menu .orange.active.item,
@@ -21122,7 +21122,7 @@ Floated Menu / Item
 
 .ui.inverted.menu .red.active.item,
 .ui.inverted.red.menu {
-  background-color: #DB2828;
+  background-color: #F95573;
 }
 
 .ui.inverted.red.menu .item:before {
@@ -21763,7 +21763,7 @@ Floated Menu / Item
 
 .ui.message .header {
   display: block;
-  font-family: 'Cardo', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Vollkorn', georgia, serif;
   font-weight: bold;
   margin: -0.14285em 0em 0rem 0em;
 }
@@ -22114,11 +22114,11 @@ Floated Menu / Item
 
 .ui.red.message {
   background-color: #FFE8E6;
-  color: #DB2828;
+  color: #F95573;
 }
 
 .ui.red.message .header {
-  color: #c82121;
+  color: #f83c5f;
 }
 
 .ui.orange.message {
@@ -22913,11 +22913,11 @@ Floated Menu / Item
 /* Red */
 
 .ui.red.table {
-  border-top: 0.2em solid #DB2828;
+  border-top: 0.2em solid #F95573;
 }
 
 .ui.inverted.red.table {
-  background-color: #DB2828 !important;
+  background-color: #F95573 !important;
   color: #FFFFFF !important;
 }
 
@@ -23970,7 +23970,7 @@ Floated Menu / Item
 .ui.card > .content > .header {
   display: block;
   margin: '';
-  font-family: 'Cardo', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Vollkorn', georgia, serif;
   color: rgba(0, 0, 0, 0.85);
 }
 
@@ -24307,13 +24307,13 @@ a.ui.card:hover,
 .ui.red.cards > .card,
 .ui.cards > .red.card,
 .ui.red.card {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #DB2828, 0px 1px 3px 0px #D4D4D5;
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #F95573, 0px 1px 3px 0px #D4D4D5;
 }
 
 .ui.red.cards > .card:hover,
 .ui.cards > .red.card:hover,
 .ui.red.card:hover {
-  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #d01919, 0px 1px 3px 0px #BCBDBD;
+  box-shadow: 0px 0px 0px 1px #D4D4D5, 0px 2px 0px 0px #ff355a, 0px 1px 3px 0px #BCBDBD;
 }
 
 /* Orange */
@@ -25586,7 +25586,7 @@ a.ui.card:hover,
 .ui.items > .item > .content > .header {
   display: inline-block;
   margin: -0.3em 0em 0em;
-  font-family: 'Cardo', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Vollkorn', georgia, serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.85);
 }
@@ -26068,7 +26068,7 @@ a.ui.card:hover,
 
 .ui.statistics .statistic > .value,
 .ui.statistic > .value {
-  font-family: 'Cardo', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Vollkorn', georgia, serif;
   font-size: 4rem;
   font-weight: normal;
   line-height: 1em;
@@ -26083,7 +26083,7 @@ a.ui.card:hover,
 
 .ui.statistics .statistic > .label,
 .ui.statistic > .label {
-  font-family: 'Cardo', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Vollkorn', georgia, serif;
   font-size: 1em;
   font-weight: bold;
   color: #111;
@@ -26317,7 +26317,7 @@ a.ui.card:hover,
 .ui.red.statistics .statistic > .value,
 .ui.statistics .red.statistic > .value,
 .ui.red.statistic > .value {
-  color: #DB2828;
+  color: #F95573;
 }
 
 .ui.orange.statistics .statistic > .value,
@@ -26639,7 +26639,7 @@ a.ui.card:hover,
 
 .ui.accordion .title:not(.ui) {
   padding: 0.5em 0em;
-  font-family: 'Cardo', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Vollkorn', georgia, serif;
   font-size: 1em;
   color: #111;
 }
@@ -29510,7 +29510,7 @@ select.ui.dropdown {
 
 .ui.modal > .header {
   display: block;
-  font-family: 'Cardo', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Vollkorn', georgia, serif;
   background: #FFFFFF;
   margin: 0em;
   padding: 1.25rem 1.5rem;
@@ -30175,7 +30175,7 @@ a.ui.nag {
 
 .ui.popup > .header {
   padding: 0em;
-  font-family: 'Cardo', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Vollkorn', georgia, serif;
   font-size: 1.125em;
   line-height: 1.2;
   font-weight: bold;
@@ -30774,7 +30774,7 @@ a.ui.nag {
 ---------------*/
 
 .ui.progress.error .bar {
-  background-color: #DB2828 !important;
+  background-color: #F95573 !important;
 }
 
 .ui.progress.error .bar,
@@ -30882,7 +30882,7 @@ a.ui.nag {
 }
 
 .ui.inverted.progress.error > .label {
-  color: #DB2828;
+  color: #F95573;
 }
 
 /*--------------
@@ -30947,7 +30947,7 @@ a.ui.nag {
 /* Red */
 
 .ui.red.progress .bar {
-  background-color: #DB2828;
+  background-color: #F95573;
 }
 
 .ui.red.inverted.progress .bar {
@@ -31529,7 +31529,7 @@ a.ui.nag {
 
 .ui.search > .results .result .title {
   margin: -0.14285em 0em 0em;
-  font-family: 'Cardo', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Vollkorn', georgia, serif;
   font-weight: bold;
   font-size: 1em;
   color: rgba(0, 0, 0, 0.85);
@@ -31555,7 +31555,7 @@ a.ui.nag {
 }
 
 .ui.search > .results > .message .header {
-  font-family: 'Cardo', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Vollkorn', georgia, serif;
   font-size: 1rem;
   font-weight: bold;
   color: #111;
@@ -31707,7 +31707,7 @@ a.ui.nag {
 
 .ui.search.selection > .icon.input > .remove.icon:hover {
   opacity: 1;
-  color: #DB2828;
+  color: #F95573;
 }
 
 /*--------------
@@ -31765,7 +31765,7 @@ a.ui.nag {
 .ui.category.search > .results .category > .name {
   width: 100px;
   background: transparent;
-  font-family: 'Cardo', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-family: 'Vollkorn', georgia, serif;
   font-size: 1em;
   float: 1em;
   float: left;
