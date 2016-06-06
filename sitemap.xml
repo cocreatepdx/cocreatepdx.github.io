@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://louiseandclark.com/workshops/summer-2016/oceans-of-love-coloring-book-and-necklace/</loc>
+<lastmod>2016-06-30T00:00:00-07:00</lastmod>
+</url>
+<url>
+<loc>http://louiseandclark.com/workshops/summer-2016/fairy-tale-coloring-book-and-necklace/</loc>
+<lastmod>2016-06-30T00:00:00-07:00</lastmod>
+</url>
+<url>
 <loc>http://louiseandclark.com/workshops/summer-2016/monogram-stamp-and-stationary/</loc>
-<lastmod>2016-06-05T00:00:00-07:00</lastmod>
+<lastmod>2016-06-30T00:00:00-07:00</lastmod>
 </url>
 <url>
 <loc>http://louiseandclark.com/404/</loc>
@@ -27,5 +35,8 @@
 </url>
 <url>
 <loc>http://louiseandclark.com/terms-and-conditions/</loc>
+</url>
+<url>
+<loc>http://louiseandclark.com/thank-you/</loc>
 </url>
 </urlset>
