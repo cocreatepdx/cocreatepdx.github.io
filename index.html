@@ -327,7 +327,7 @@ July
  -->
 
     </div>
-   <footer>
+    <footer>
     <div class="ui container">
         <div class="ui stackable divided equal height stackable grid">
             <div class="seven wide column">
@@ -390,21 +390,10 @@ July
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
     <script src="/assets/semantic/semantic.min.js"></script>
-
-  
-
-     <!-- JS -->
-    <!-- inject:js -->
-     <script src="/assets/javascript/index-012cddee1a.min.js"></script>
-     <!-- endinject -->
-
-
-      <script src="/assets/javascript/vendor/instafeed.min.js"></script>
-
-
-
-
-<script type="text/javascript">
+    
+    <script src="/assets/javascript/vendor/instafeed.min.js"></script>
+     
+    <script type="text/javascript">
     var userFeed = new Instafeed({
         get: 'user',
         userId: '3026568333',
@@ -414,17 +403,20 @@ July
         template: '<li class="gram-li"><a href="{{link}}"><img class="ui small rounded image gram" src="{{image}}" /></a></li>'
     });
     userFeed.run();
-</script>
-
-<script src="/assets/javascript/vendor/fixedsticky.js"></script>
-<script src="/assets/javascript/vendor/jquery.lettering.js"></script>
-
-<script>
-      $(document).ready(function() {
+    </script>
+    <script src="/assets/javascript/vendor/fixedsticky.js"></script>
+    <script src="/assets/javascript/vendor/jquery.lettering.js"></script>
+    <script>
+    $(document).ready(function() {
         $(".seasonal-tagline").lettering();
-        $( '#aside' ).fixedsticky();
-      });
-</script>
+        $('#aside').fixedsticky();
+    });
+    </script>
+
+    <!-- JS -->
+    <!-- inject:js -->
+    <script src="/assets/javascript/index.js"></script>
+    <!-- endinject -->
 </body>
 
 </html>
