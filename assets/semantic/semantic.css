@@ -8,7 +8,7 @@
  * http://opensource.org/licenses/MIT
  *
  */
-@import url('https://fonts.googleapis.com/css?family=Vollkorn|Old+Standard+TT');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin');
 /*!
  * # Semantic UI 2.1.8 - Reset
  * http://github.com/semantic-org/semantic-ui/
@@ -569,7 +569,7 @@ body {
   overflow-x: hidden;
   min-width: 320px;
   background: none;
-  font-family: 'Vollkorn', georgia, serif;
+  font-family: georgia, serif;
   font-size: 21px;
   line-height: 1.6em;
   color: #111;
@@ -584,7 +584,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Vollkorn', georgia, serif;
+  font-family: georgia, serif;
   line-height: 1.2857em;
   margin: calc(2rem -  0.14285em ) 0em 1rem;
   font-weight: normal;
@@ -4619,7 +4619,7 @@ input::selection {
 /* Text Container */
 
 .ui.text.container {
-  font-family: 'Vollkorn', georgia, serif;
+  font-family: georgia, serif;
   max-width: 700px !important;
   line-height: 1.5;
 }
@@ -8591,7 +8591,7 @@ img.ui.bordered.image {
   -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
   text-align: left;
   line-height: 1.2142em;
-  font-family: 'Vollkorn', georgia, serif;
+  font-family: georgia, serif;
   padding: 0.41670952em 0.66666667em;
   background: #FFFFFF;
   border: 1px solid rgba(34, 36, 38, 0.15);
@@ -10723,7 +10723,7 @@ ol.ui.list ol li,
 .ui.list > .item .header {
   display: block;
   margin: 0em;
-  font-family: 'Vollkorn', georgia, serif;
+  font-family: georgia, serif;
   font-weight: bold;
   color: #111;
 }
@@ -15062,7 +15062,7 @@ ol.ui.horizontal.list li:before,
   display: -ms-flexbox;
   display: flex;
   margin: 1rem 0em;
-  font-family: 'Vollkorn', georgia, serif;
+  font-family: georgia, serif;
   background: #FFFFFF;
   font-weight: normal;
   border: 1px solid rgba(34, 36, 38, 0.15);
@@ -17294,7 +17294,7 @@ Floated Menu / Item
 
 .ui.message .header {
   display: block;
-  font-family: 'Vollkorn', georgia, serif;
+  font-family: georgia, serif;
   font-weight: bold;
   margin: -0.14285em 0em 0rem 0em;
 }
@@ -17925,7 +17925,7 @@ Floated Menu / Item
 .ui.items > .item > .content > .header {
   display: inline-block;
   margin: -0.3em 0em 0em;
-  font-family: 'Vollkorn', georgia, serif;
+  font-family: georgia, serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.85);
 }
@@ -18325,7 +18325,7 @@ Floated Menu / Item
 
 .ui.accordion .title:not(.ui) {
   padding: 0.5em 0em;
-  font-family: 'Vollkorn', georgia, serif;
+  font-family: georgia, serif;
   font-size: 1em;
   color: #111;
 }
@@ -18591,7 +18591,7 @@ Floated Menu / Item
 
 .ui.popup > .header {
   padding: 0em;
-  font-family: 'Vollkorn', georgia, serif;
+  font-family: georgia, serif;
   font-size: 1.125em;
   line-height: 1.2;
   font-weight: bold;
@@ -21374,7 +21374,7 @@ Floated Menu / Item
 .ui.form input[type="time"],
 .ui.form input[type="text"],
 .ui.form input[type="url"] {
-  font-family: 'Vollkorn', georgia, serif;
+  font-family: georgia, serif;
   margin: 0em;
   outline: none;
   -webkit-appearance: none;
