@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://nekodiablo.com/workshops/summer-201/letter-boxing-adventure-part-3/</loc>
+<lastmod>2016-07-31T00:00:00-07:00</lastmod>
+</url>
+<url>
+<loc>http://nekodiablo.com/workshops/summer-201/letter-boxing-adventure-part-2/</loc>
+<lastmod>2016-07-24T00:00:00-07:00</lastmod>
+</url>
+<url>
 <loc>http://nekodiablo.com/workshops/summer-2016/logo-design-in-illustrator-series/</loc>
 <lastmod>2016-07-23T00:00:00-07:00</lastmod>
+</url>
+<url>
+<loc>http://nekodiablo.com/workshops/summer-201/letter-boxing-adventure-part-1/</loc>
+<lastmod>2016-07-17T00:00:00-07:00</lastmod>
 </url>
 <url>
 <loc>http://nekodiablo.com/workshops/summer-2016/monogram-stamp-and-stationary/</loc>
@@ -36,10 +48,10 @@
 <loc>http://nekodiablo.com/terms/</loc>
 </url>
 <url>
-<loc>http://nekodiablo.com/search/</loc>
+<loc>http://nekodiablo.com/resources/</loc>
 </url>
 <url>
-<loc>http://nekodiablo.com/terms-and-conditions/</loc>
+<loc>http://nekodiablo.com/search/</loc>
 </url>
 <url>
 <loc>http://nekodiablo.com/thank-you/</loc>
